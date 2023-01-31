@@ -1,0 +1,117 @@
+html{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(10, 10, 10);
+    color:rgb(249, 248, 246); 
+    background-image:url(../HTML/Fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+body{
+    width:80%;
+    margin: 10px auto;
+    
+}
+.limpiar{
+    clear: both;
+}
+
+header{
+    font: center
+    margin:10px 0;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight:bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+nav{
+    margin:5px 0;
+    padding: 5px 0;
+    text-align: left;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight:bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+nav2{
+    margin:5px 0;
+    padding: 5px 0;
+    text-align: right;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight:bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+
+ tex, tex2{
+    text-align:center;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight:bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+ }
+
+
+header{
+   
+    color:rgb(222, 44, 44);
+}
+
+nav{
+    float: left;
+    width: 30%;
+    height: 400px;
+    background: rgba(1, 37, 103, 0.742);
+}
+
+nav2{
+    float: right;
+    width: 30%;
+    height: 400px;
+    background: rgba(1, 37, 103, 0.742);
+transform: translateX(8%);
+}
+
+
+
+
+ul, ul2{
+    list-style: none;
+}
+
+nav ul, nav2, ul2{
+    display: inline-block;
+    margin: 0 25px;
+    padding: 4px 10px;
+}
+
+
+footer{
+    margin:10px 0;
+    padding: 20px 0;
+    float: center;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight:bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 50%;
+    transform: translateY(500%);
+}
+
+footer{
+    background: rgb(222, 44, 44);
+}
+
